@@ -16,8 +16,8 @@ Also including pre compiled binaries if you don't want to compile this yourself.
 Usage is very simple:
 
 
-    lz77_compressor in_file out_file
-    lz77_decompressor in_file out_file
+    lz77_compressor <in_file> <out_file>
+    lz77_decompressor <in_file> <out_file>
 
 
 If you don't get any output the operation succeeded! 
