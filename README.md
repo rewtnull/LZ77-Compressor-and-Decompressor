@@ -23,7 +23,7 @@ Usage is very simple:
 If you don't get any output the operation succeeded! 
 
 
-You can build this with gcc in Msys2/mingw32 using some- or all of these flags :D
+You can build this with gcc in Msys2/mingw32 using some - or all - of these flags :D
 
 
     -nostdlib -Oz -s -fno-builtin -fno-math-errno -ffast-math -fno-exceptions -fsingle-precision-constant -mfpmath=387 -mfancy-math-387 -fmerge-all-constants -fno-unroll-loops -fno-ident -fno-unwind-tables -fno-asynchronous-unwind-tables -Wall -DNDEBUG -m32 -fno-stack-protector -fomit-frame-pointer -fdata-sections -ffunction-sections -fvisibility=hidden -falign-functions=1 -falign-jumps=1 -falign-loops=1 -mpreferred-stack-boundary=2 -Bsymbolic -Wl,--build-id=none -Wl,--gc-sections -Wl,-nmagic -Wl,--no-insert-timestamp -lkernel32 -lshell32 "-Wl,-e,__start"
