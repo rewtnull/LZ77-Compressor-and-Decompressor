@@ -38,7 +38,7 @@ The compressed data has a header in this format:
 where size represents the size of the uncompressed data in hex.
 
 
-This code is a part of a larger project and I aim to use this to store a compressed array with 16 bit byte data directly in my executable and decompress it when needed. Compression rate is pretty good for this kind of data. I compressed a file slightly shy of 40kb down to aroun 4kb.
+This code is a part of a larger project and I aim to use this to store a compressed array with 16 bit byte data directly in my executable and decompress it when needed. Compression rate is pretty good for this kind of data. I compressed a file slightly shy of 40kb down to around 4kb.
 
 
 I may or may not optimize this in various ways in the future.
